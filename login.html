@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrowbook</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body style="background-image: url('Icon/Login.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <Span>Have and account?</Span>
+                <header>Login</header>
+            </div>
+<form action="php/insert.php" method="post">
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Username" name="username" required>
+                <i class="bi bi-people"></i>
+            </div>
+            <div class="input-field">
+                <input type="text" class="input" placeholder="Password" name="password" required>
+                <i class="bi bi-lock"></i>
+            </div> 
+            <div class="input-field">
+                <input type="submit" class="submit" value="Login">
+            </div>
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox"  id="chack">
+                    <label for="chack">Remember me</label>
+                </div>
+                <div class="right">
+                    <label><a href="#">Forgot Password</a></label>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+</html>
+
+ 
